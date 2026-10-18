@@ -1,0 +1,32 @@
+[
+  {
+    "id": "res_01",
+    "target_role": "data_analyst",
+    "text": "Data Analyst with 2 years of experience in SQL, Python (Pandas, NumPy), Power BI, and Tableau. Created ETL data pipelines and designed dashboards.",
+    "skills": ["python", "sql", "pandas", "numpy", "power bi", "tableau", "etl"]
+  },
+  {
+    "id": "res_02",
+    "target_role": "fullstack_dev",
+    "text": "Full Stack Developer proficient in React.js, Node.js, Express, MongoDB, TypeScript, and REST API development. Built scalable web applications.",
+    "skills": ["react", "node.js", "express.js", "mongodb", "typescript", "rest apis"]
+  },
+  {
+    "id": "res_03",
+    "target_role": "ml_engineer",
+    "text": "Machine Learning Engineer specialized in PyTorch, TensorFlow, Scikit-Learn, Deep Learning, and Hugging Face Transformers. Deployed model REST APIs via FastAPI and Docker.",
+    "skills": ["python", "pytorch", "tensorflow", "scikit-learn", "deep learning", "nlp", "fastapi", "docker"]
+  },
+  {
+    "id": "res_04",
+    "target_role": "cybersecurity_analyst",
+    "text": "Cybersecurity Analyst experienced in Network Security, Wireshark packet capture, Linux command line, SIEM log monitoring, and OWASP penetration testing.",
+    "skills": ["network security", "linux", "wireshark", "siem", "penetration testing", "owasp"]
+  },
+  {
+    "id": "res_05",
+    "target_role": "software_engineer",
+    "text": "Software Engineer with strong background in Java, C++, Data Structures, Algorithms, Object-Oriented Programming (OOP), and System Design.",
+    "skills": ["java", "c++", "data structures", "algorithms", "object-oriented programming (oop)", "system design"]
+  }
+]

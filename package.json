@@ -1,0 +1,31 @@
+{
+  "name": "intellicareer-ai",
+  "private": true,
+  "version": "3.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "zip": "node scripts/create-zip.js",
+    "ml:dataset": "python3 ml/gen_dataset.py",
+    "ml:train": "node ml/dump_rule_scores.mjs && python3 ml/train_role_model.py",
+    "eval": "node ml/eval_engine.mjs"
+  },
+  "dependencies": {
+    "canvas-confetti": "^1.9.4",
+    "lucide-react": "^0.469.0",
+    "mammoth": "^1.8.0",
+    "pdfjs-dist": "^3.11.174",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.18",
+    "@types/react-dom": "^18.3.5",
+    "@vitejs/plugin-react": "^4.3.4",
+    "archiver": "^7.0.1",
+    "vite": "^6.0.5",
+    "esbuild": "^0.25.0"
+  }
+}
