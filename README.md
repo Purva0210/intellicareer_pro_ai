@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # IntelliCareer Pro AI v3.0 🚀
 > **AI-Powered NLP Resume Analyzer, Semantic Job Matcher, Skill-Gap Course Recommender, Placement Quiz & Internshala-Style Mock Interview Platform**
 
@@ -121,3 +122,7 @@ npm run eval         # evaluate the real JS engine (skills, contacts, roles)
 **Caveats:** the generator and dictionary share aliases, so skill scores are partly circular; every role metric is at a
 ceiling, so rules vs ML vs blend cannot be separated statistically (n=36). Treat these as regression tests, not as
 real-world accuracy. Real-world numbers need real labeled resumes.
+=======
+# intellicareer_pro_ai
+An NLP-based AI career assistance platform for resume analysis, skill-gap identification, job matching, career recommendations, and placement preparation.
+>>>>>>> 02f36452531381ad27d5250cfd043bacd6b0b453
